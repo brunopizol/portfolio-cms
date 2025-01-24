@@ -1,306 +1,489 @@
 <%- include('partials/header') %>
 
-<!-- Banner Carousel -->
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-        <img src="/img/people-on-street.jpg" class="d-block w-100 custom-image" alt="Banner 1">
-        <div class="carousel-caption d-none d-md-block">
-        <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Computer Vision</h1>
-        <p style="font-size: 1.2rem;">Realtime detection algorithms</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-        <img src="/img/backend.jpeg" class="d-block w-100 custom-image" alt="Banner 2">
-        <div class="carousel-caption d-none d-md-block">
-        <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Backend Solutions</h1>
-        <p style="font-size: 1.2rem;">I build modern, scalable and resilient solutions</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-        <img src="/img/gamedev.jpg" class="d-block w-100 custom-image" alt="Banner 3">
-        <div class="carousel-caption d-none d-md-block">
-        <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Gamedev Projects</h1>
-        <p style="font-size: 1.2rem;">Get in touch to discuss your next project</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-<!-- About Me Section -->
-<div class="container my-5" id="about">
-  <div class="row align-items-center">
-    <div class="col-md-4 text-center">
-      <img src="/img/profile.jpeg" alt="My Photo" class="img-fluid rounded-circle shadow-lg" style="max-width: 250px;">
-    </div>
-    <div class="col-md-8">
-      <h2 class="text-center text-md-start" style="color: #ffa500;">About Me</h2>
-      <p class="mt-3" style="font-size: 1.2rem; line-height: 1.8; color: #f4f4f4;">
-        Hi, I'm <strong>Your Name</strong>, a passionate web developer with expertise in modern web technologies like Node.js, Express, and MongoDB. I enjoy building sleek and functional web applications that solve real-world problems. When I'm not coding, I love exploring new technologies, reading, and spending time outdoors. Let’s create something amazing together!
-      </p>
-    </div>
-  </div>
-</div>
-<!-- timeline -->
-<div class="container">
-    <div class="page-header">
-        <h1 id="timeline">Timeline</h1>
-    </div>
-    <ul class="timeline">
-        <li>
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Unity3d Developer</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> fevereiro de 2017 - janeiro de 2018 (11 meses)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Projeto de iniciação cientifica FIP com o objetivo de desenvolver uma
-                aplicação em realidade virtual para smartphones para o auxilio no tratamento
-                de acrofobia. Projeto desenvolvido utilizando googleVR SDK na Unity.</p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Professor de workshop</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> maio de 2017 - maio de 2017 (1 semana)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Ministrante do curso de desenvolvimento de jogos com Unity3D pelo
-                programa Microsoft Students to Business na PUC Poços de Caldas.</p>              
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Professor de workshop</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2017 - outubro de 2017 (1 semana)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Ministrante do curso de desenvolvimento de jogos e aplicações em realidade
-                aumentada com Unity3D pelo programa Microsoft Students to Business na
-                PUC Poços de Caldas.
-                </p>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Unity3D Developer</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> fevereiro de 2018 - janeiro de 2019 (11 meses)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Projeto de iniciação cientifica PROBIC com o objetivo de desenvolver uma
-                aplicação em realidade aumentada para smartphones para o auxilio no
-                tratamento de aracnofobia. Projeto foi desenvolvido utilizando o Vuforia SDK
-                na Unity.
-                </p>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Python Developer</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> setembro de 2019 - janeiro de 2020 (5 meses)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>Projeto de iniciação cientifica FIP voltado ao desenvolvimento de um seletor
-                de grãos secos de café utilizando raspberry e python com OpenCV para o
-                processamento das imagens dos grãos.</p>
-              <hr>
-            </div>
-          </div>
-        </li>
-        <li>
-            <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">developer</h4>
-              <p><small><i class="glyphicon glyphicon-time"></i> março de 2020 - junho de 2022 (2 anos 4 meses)
-              </small></p>
-            </div>
-            <div class="timeline-body">
-              <p>manutenção de sistemas PHP, Laravel, React, Node.js utilizando Docker e
-                MySQL.
-                - Sistema de gerenciamento de salas e turmas usando Backend com API
-                laravel com php 5.3 conteinerizado com Docker e com pipeline de deploy
-                com o gitlab. Frontend feito em react.js com redux e lib React DnD, projeto
-                conteinerizado com Docker.
-                - Sistema de gerenciamento de equipamentos feito em nodejs com
-                express, EJS para Server Side Rendering e Bootstrap no frontend, projeto
-                conteinerizado com Docker e com Base MySQL.
-                Page 3 of 5
-                - Portal para professores e alunos feito em nodejs com express, EJS para
-                Server Side Rendering e Bootstrap no frontend, projeto conteinerizado com
-                Docker e com Base MySQL.
-                Projetos utilizando um proxy reverso criado dentro do próprio servidor da
-                universidade usando nginx</p>
-              <hr>
-            </div>
-          </div>
-        </li>
-        <li class="timeline-inverted">
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">JR developer</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> junho de 2022 - setembro de 2022 (4 meses)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Colaboração na manutenção e desenvolvimento de códigos legados em VB
-                    6.0.
-                    - Manutenção e criação de novas features em sistema ERP para pequenos
-                    e médios comerciantes em VB 6.0 com parte de gerenciamento de estoque,
-                    vendas, validação e emissão de notas na SEFAZ e exportação para
-                    contabilidade dos dados.
-                    - Contribuição no desenvolvimento de APIs no .NET Framework.
-                    - Integrações do ERP com o IFood para vendas e Mercus para distribuidoras
-                    através de APIs .NET usando Clean Architecture e SQL Server.
-                    - Utilização de tecnologias como Jira, Git, tortoise SVN, .NET, VB 6.0, SQL
-                    Server, MySQL.
-                    Ritos Ágeis como daily, refinamento, retro e board Kanban com Sprint.
-                  </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Development Analist I</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2022 - novembro de 2023 (1 ano 2 meses)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Manutenção e desenvolvimento em códigos legados da plataforma.NET e
-                    desenvolvimento na nova arquitetura utilizando NodeJS que utiliza Micro
-                    Serviços como padrão e tecnologias como:
-                    Docker, GraphQL, MicroServiços, Jira,Git, GitLab e TypeScript, Jira, Redis,
-                    Elasticsearch (NEST para .NET, winston para NodeJs), .NET, .NETCore,
-                    VB.Net, SQL Server, PostgreSQL, Nest.js, TypeORM, PrismaORM, Google
-                    Pubsub, Jekins, Rancher e ArgoCD</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Professor de workshop</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2023 - outubro de 2023 (1 mês)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
-                    de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
-                    framework, principios de DDD no desenvolvimento backend e API's REST</p>              
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Mid level Developer</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> novembro de 2023 - Present (1 ano 3 meses)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Alocado em cliente BaaS. Analise de requisitos junto ao cliente, criação de
-                    refinamento de tarefas e documentação, analise de PR, desenvolvimento
-                    utilizando .NET 6 com EDA, webhooks, docker, rabbitMQ, Kafka, Raven DB,
-                    Redis, Xunit, openTelemetry, Grafana, Elastic Search, AzureDevop e AWS.</p>
-              </div>
-            </div>
-          </li>
-          <li class="timeline-inverted">
-            <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">Professor de workshop</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> maio de 2024 - maio de 2024 (1 mês)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
-                    de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
-                    framework, principios de DDD no desenvolvimento backend e API's REST</p>              
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4 class="timeline-title">python developer freelancer</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> agosto de 2024 - Present (5 meses)
-                </small></p>
-              </div>
-              <div class="timeline-body">
-                <p>Desenvolvendo uma aplicação de visão computacional com foco em detectar pessoas e objetos diversos.
-                    Aplicação sendo desenvolvida usando python, opencv, flask, rabbitMQ, memcached. Sendo desenvolvido
-                    também modelo de detecção treinado com datasets proprios e focados em realtime usando yoloV8.
-                </p>
-              </div>
-            </div>
-          </li>
-        <li class="timeline-inverted">
-          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-                <h4 class="timeline-title">Professor de workshop</h4>
-                <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2024 - outubro de 2024 (1 mês)
-                </small></p>
-            </div>
-            <div class="timeline-body">
-                <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
-                    de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
-                    framework, principios de DDD no desenvolvimento backend e API's REST</p>              
-              </div>
-          </div>
-        </li>
-    </ul>
-</div>
-<!-- Portfolio Projects -->
-<div class="container mt-5">
-  <h1 class="text-center mb-4" id="projects" style="color: #ffa500;">My Projects</h1>
-  <div class="row">
-    <% projects.forEach(project => { %>
-      <div class="col-md-4 mb-4">
-        <div class="card">
-          <img src="<%= project.image %>" class="card-img-top" alt="<%= project.title %>">
-          <div class="card-body">
-            <h5 class="card-title"><%= project.title %></h5>
-            <p class="card-text"><%= project.description %></p>
-            <a href="<%= project.url %>" class="btn btn-primary">View Project</a>
-          </div>
+    <!-- Banner Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
         </div>
-      </div>
-    <% }) %>
-  </div>
-</div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="/img/people-on-street.jpg" class="d-block w-100 custom-image" alt="Banner 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Computer Vision</h1>
+                    <p style="font-size: 1.2rem;">Realtime detection algorithms</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/backend.jpeg" class="d-block w-100 custom-image" alt="Banner 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Backend Solutions</h1>
+                    <p style="font-size: 1.2rem;">I build modern, scalable and resilient solutions</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/img/gamedev.jpg" class="d-block w-100 custom-image" alt="Banner 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4" style="color: #ffa500; font-weight: bold;">Gamedev Projects</h1>
+                    <p style="font-size: 1.2rem;">Get in touch to discuss your next project</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-<%- include('partials/footer') %>
+    <!-- About Me Section -->
+    <div class="container my-5" id="about">
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="/img/profile.jpeg" alt="My Photo" class="img-fluid rounded-circle shadow-lg"
+                    style="max-width: 250px;">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-center text-md-start" style="color: #ffa500;">About Me</h2>
+                <p class="mt-3" style="font-size: 1.2rem; line-height: 1.8; color: #f4f4f4; text-align: justify;">
+                    Olá, eu sou <strong>Bruno Pizol Camargo</strong>, Engenheiro de software focado em backend com .NET,
+                    apaixonado por visão computacional em projetos de IA e desenvolvimento de jogos.
+                    Tenho um forte background generalista onde ja atuei desde sistemas simples com node.js e bootstrap a
+                    MicroServiços complexos de sistemas bancarios com centenas de milhares de acessos
+                    diarios. Ja atuei com desenvolvimento de ferramentas mobile de realidade virtual e aumentada no
+                    tratamento de fobias(aracnofobia e acrofobia), ja trabalhei também com projetos de visão
+                    computacional onde eu analisava graos de cafe seco e determinava sua qualidade atraves de sua cor
+                    usando python com opencv.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- timeline -->
+    <div class="container">
+        <div class="page-header">
+            <h1 id="timeline">Experiencia Profissional</h1>
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Unity3d Developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> fevereiro de 2017 - janeiro de 2018 (11
+                                meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Projeto de iniciação cientifica FIP com o objetivo de desenvolver uma
+                            aplicação em realidade virtual para smartphones para o auxilio no tratamento
+                            de acrofobia. Projeto desenvolvido utilizando googleVR SDK na Unity.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Professor de workshop</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> maio de 2017 - maio de 2017 (1 semana)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Ministrante do curso de desenvolvimento de jogos com Unity3D pelo
+                            programa Microsoft Students to Business na PUC Poços de Caldas.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Professor de workshop</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2017 - outubro de 2017 (1 semana)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Ministrante do curso de desenvolvimento de jogos e aplicações em realidade
+                            aumentada com Unity3D pelo programa Microsoft Students to Business na
+                            PUC Poços de Caldas.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Unity3D Developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> fevereiro de 2018 - janeiro de 2019 (11
+                                meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Projeto de iniciação cientifica PROBIC com o objetivo de desenvolver uma
+                            aplicação em realidade aumentada para smartphones para o auxilio no
+                            tratamento de aracnofobia. Projeto foi desenvolvido utilizando o Vuforia SDK
+                            na Unity.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Python Developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> setembro de 2019 - janeiro de 2020 (5 meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Projeto de iniciação cientifica FIP voltado ao desenvolvimento de um seletor
+                            de grãos secos de café utilizando raspberry e python com OpenCV para o
+                            processamento das imagens dos grãos.</p>
+                        <hr>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> março de 2020 - junho de 2022 (2 anos 4
+                                meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>manutenção de sistemas PHP, Laravel, React, Node.js utilizando Docker e
+                            MySQL.
+                            - Sistema de gerenciamento de salas e turmas usando Backend com API
+                            laravel com php 5.3 conteinerizado com Docker e com pipeline de deploy
+                            com o gitlab. Frontend feito em react.js com redux e lib React DnD, projeto
+                            conteinerizado com Docker.
+                            - Sistema de gerenciamento de equipamentos feito em nodejs com
+                            express, EJS para Server Side Rendering e Bootstrap no frontend, projeto
+                            conteinerizado com Docker e com Base MySQL.
+                            Page 3 of 5
+                            - Portal para professores e alunos feito em nodejs com express, EJS para
+                            Server Side Rendering e Bootstrap no frontend, projeto conteinerizado com
+                            Docker e com Base MySQL.
+                            Projetos utilizando um proxy reverso criado dentro do próprio servidor da
+                            universidade usando nginx</p>
+                        <hr>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">JR developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> junho de 2022 - setembro de 2022 (4 meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Colaboração na manutenção e desenvolvimento de códigos legados em VB
+                            6.0.
+                            - Manutenção e criação de novas features em sistema ERP para pequenos
+                            e médios comerciantes em VB 6.0 com parte de gerenciamento de estoque,
+                            vendas, validação e emissão de notas na SEFAZ e exportação para
+                            contabilidade dos dados.
+                            - Contribuição no desenvolvimento de APIs no .NET Framework.
+                            - Integrações do ERP com o IFood para vendas e Mercus para distribuidoras
+                            através de APIs .NET usando Clean Architecture e SQL Server.
+                            - Utilização de tecnologias como Jira, Git, tortoise SVN, .NET, VB 6.0, SQL
+                            Server, MySQL.
+                            Ritos Ágeis como daily, refinamento, retro e board Kanban com Sprint.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Development Analist I</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2022 - novembro de 2023 (1 ano 2
+                                meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Manutenção e desenvolvimento em códigos legados da plataforma.NET e
+                            desenvolvimento na nova arquitetura utilizando NodeJS que utiliza Micro
+                            Serviços como padrão e tecnologias como:
+                            Docker, GraphQL, MicroServiços, Jira,Git, GitLab e TypeScript, Jira, Redis,
+                            Elasticsearch (NEST para .NET, winston para NodeJs), .NET, .NETCore,
+                            VB.Net, SQL Server, PostgreSQL, Nest.js, TypeORM, PrismaORM, Google
+                            Pubsub, Jekins, Rancher e ArgoCD</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Professor de workshop</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2023 - outubro de 2023 (1 mês)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
+                            de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
+                            framework, principios de DDD no desenvolvimento backend e API's REST</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Mid level Developer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> novembro de 2023 - Present (1 ano 3 meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Alocado em cliente BaaS. Analise de requisitos junto ao cliente, criação de
+                            refinamento de tarefas e documentação, analise de PR, desenvolvimento
+                            utilizando .NET 6 com EDA, webhooks, docker, rabbitMQ, Kafka, Raven DB,
+                            Redis, Xunit, openTelemetry, Grafana, Elastic Search, AzureDevop e AWS.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Professor de workshop</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> maio de 2024 - maio de 2024 (1 mês)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
+                            de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
+                            framework, principios de DDD no desenvolvimento backend e API's REST</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">python developer freelancer</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> agosto de 2024 - Present (5 meses)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Desenvolvendo uma aplicação de visão computacional com foco em detectar pessoas e objetos
+                            diversos.
+                            Aplicação sendo desenvolvida usando python, opencv, flask, rabbitMQ, memcached. Sendo
+                            desenvolvido
+                            também modelo de detecção treinado com datasets proprios e focados em realtime usando
+                            yoloV8.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4 class="timeline-title">Professor de workshop</h4>
+                        <p><small><i class="glyphicon glyphicon-time"></i> outubro de 2024 - outubro de 2024 (1 mês)
+                            </small></p>
+                    </div>
+                    <div class="timeline-body">
+                        <p>Curso de 15 horas ministrado na semana da computação da PUC Poços
+                            de caldas, onde foi introduzido sobre orientação a objetos, SQL, Entity
+                            framework, principios de DDD no desenvolvimento backend e API's REST</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- Portfolio Projects -->
+    <div class="container mt-5">
+        <h1 class="text-center mb-4" id="projects" style="color: #ffa500;">My Projects</h1>
+        <!-- Carousel wrapper -->
+        <div id="carouselMultiItemExample" data-mdb-carousel-init class="carousel slide carousel-dark text-center"
+            data-mdb-ride="carousel">
+            <!-- Controls -->
+            <div class="d-flex justify-content-center mb-4">
+                <button data-mdb-button-init class="carousel-control-prev position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button data-mdb-button-init class="carousel-control-next position-relative" type="button"
+                    data-mdb-target="#carouselMultiItemExample" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Inner -->
+            <div class="carousel-inner py-4">
+                <!-- Single item -->
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/181.webp"
+                                        class="card-img-top" alt="Waterfall" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp"
+                                        class="card-img-top" alt="Sunset Over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/183.webp"
+                                        class="card-img-top" alt="Sunset over the Sea" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp"
+                                        class="card-img-top" alt="Fissure in Sandstone" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/185.webp"
+                                        class="card-img-top" alt="Storm Clouds" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/186.webp"
+                                        class="card-img-top" alt="Hot Air Balloons" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single item -->
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/187.webp"
+                                        class="card-img-top" alt="Peaks Against the Starry Sky" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/188.webp"
+                                        class="card-img-top" alt="Bridge Over Water" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 mb-4 mb-lg-0 d-none d-lg-block">
+                                <div class="card">
+                                    <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/189.webp"
+                                        class="card-img-top" alt="Purbeck Heritage Coast" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and make up the bulk
+                                            of the card's content.
+                                        </p>
+                                        <a href="#!" data-mdb-ripple-init class="btn btn-primary">Button</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Inner -->
+        </div>
+        <!-- Carousel wrapper -->
+    </div>
+
+    <%- include('partials/footer') %>
